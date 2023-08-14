@@ -11,6 +11,9 @@
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1"
   },
+  "devDependencies": {
+    "prettier": "2.8.8"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -25,8 +28,7 @@
   },
   "browserslist": {
     "production": [
-      ">0.2%",
-      "not dead"
+      ">0.2%"
     ],
     "development": [
       "last 1 chrome version",
