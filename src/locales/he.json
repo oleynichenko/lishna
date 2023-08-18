@@ -1,0 +1,18 @@
+{
+  "common": {
+    "siteName": "לישנא",
+    "developedBy": "פותח על ידי",
+    "changeLang": "שנה שפה"
+  },
+  "langs": {
+    "en": "אנגלית",
+    "he": "עִברִית"
+  },
+  "pages": {
+    "about": "עלינו",
+    "work": "מה אנחנו עושים",
+    "books": "הספרים שלנו",
+    "collaboration": "שיתוף פעולה",
+    "contacts": "אנשי קשר"
+  }
+}

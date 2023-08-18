@@ -1,0 +1,24 @@
+{
+  "common": {
+    "siteName": "Lishna",
+    "developedBy": "Developed by",
+    "changeLang": "Change language"
+  },
+  "langs": {
+    "en": "English",
+    "he": "Hebrew"
+  },
+  "pages": {
+    "about": "About us",
+    "work": "What we do",
+    "books": "Our books",
+    "collaboration": "Collaboration",
+    "contacts": "Contacts"
+  },
+  "icons": {
+    "email": "Send email",
+    "facebook": "Write in Facebook",
+    "phone": "Make a phone call",
+    "whatsapp": "Write in WhatsApp"
+  }
+}
