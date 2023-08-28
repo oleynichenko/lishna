@@ -1,11 +1,13 @@
 import i18n from 'i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
 import {initReactI18next} from 'react-i18next';
-import {enUS, heIL} from '@mui/material/locale';
+import {enUS, heIL, ruRU} from '@mui/material/locale';
 import enLocales from './en.json';
 import heLocales from './he.json';
+import ruLocales from './ru.json';
 import en_flag from '../assets/icons/ic_flag_en.svg';
 import he_flag from '../assets/icons/ic_flag_he.svg';
+import ru_flag from '../assets/icons/ic_flag_ru.svg';
 
 export const LANGS = [
   {
@@ -17,6 +19,11 @@ export const LANGS = [
     value: 'he',
     systemValue: heIL,
     icon: he_flag,
+  },
+  {
+    value: 'ru',
+    systemValue: ruRU,
+    icon: ru_flag,
   },
 ];
 
@@ -30,6 +37,7 @@ i18n
     resources: {
       en: { translations: enLocales },
       he: { translations: heLocales },
+      ru: { translations: ruLocales },
     },
     lng: currentLang.value,
     fallbackLng: 'en',
