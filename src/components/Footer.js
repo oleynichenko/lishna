@@ -21,11 +21,11 @@ function Footer({ sx }) {
         ...sx,
       }}
     >
-      <Typography variant="caption" sx={{ order: { xs: 2, sm: 1 } }}>{`© 2023 ${t('common.siteName')}`}</Typography>
+      <Typography variant="body1" sx={{ order: { xs: 2, sm: 1 } }}>{`© 2023 ${t('common.siteName')}`}</Typography>
       <Social sx={{ order: { xs: 1, sm: 2 }, width: { xs: '100%', sm: 'auto' }, mb: { xs: 2, sm: 0 } }} />
-      <Typography variant="caption" sx={{ order: { xs: 3 } }}>
+      <Typography variant="body1" sx={{ order: { xs: 3 } }}>
         {t('common.developedBy')}{' '}
-        <Link variant="caption" underline="hover" href="https://daat.agency" target="_blank">
+        <Link variant="body1" underline="hover" href="https://daat.agency" target="_blank">
           daat.agency
         </Link>
       </Typography>
