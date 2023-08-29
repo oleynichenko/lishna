@@ -15,5 +15,14 @@
     "books": "הספרים שלנו",
     "collaboration": "שיתוף פעולה",
     "contacts": "אנשי קשר"
+  },
+  "icons": {
+    "email": "Send email",
+    "facebook": "Write in Facebook",
+    "phone": "Make a phone call",
+    "whatsapp": "Write in WhatsApp"
+  },
+  "home": {
+    "since": "Since 2016 We are engaged"
   }
 }

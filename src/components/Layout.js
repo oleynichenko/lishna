@@ -15,7 +15,7 @@ function Layout() {
         backgroundImage: `url(${image})`,
         backgroundSize: 'cover',
         backgroundPosition: 'top center',
-        backgroundRepeat: 'no-repeat'
+        backgroundRepeat: 'no-repeat',
       }}
     >
       <Header />

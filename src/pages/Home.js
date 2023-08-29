@@ -1,10 +1,16 @@
-import { Stack } from '@mui/material';
-import { useTranslation } from 'react-i18next';
+import React from 'react';
+import OurWorks from '../components/OurWorks';
+import AboutUs from '../components/AboutUs';
+import Main from '../components/Main';
 
 function App() {
-  const { t } = useTranslation();
-
-  return <Stack alignItems="flex-start"></Stack>;
+  return (
+    <>
+      <Main sx={{ pt: 25 }} />
+      <AboutUs sx={{ mt: 20, mb: 20 }} />
+      <OurWorks />
+    </>
+  );
 }
 
 export default App;
