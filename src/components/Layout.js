@@ -13,8 +13,8 @@ function Layout() {
       sx={{
         minHeight: '100vh',
         backgroundImage: `url(${image})`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'top center',
+        backgroundSize: {xs: '1190px 755px', lg: 'contain'},
+        backgroundPosition: {xs: 'top 85px left', lg: 'top 85px center'},
         backgroundRepeat: 'no-repeat',
       }}
     >

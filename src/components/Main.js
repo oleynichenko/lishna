@@ -22,19 +22,20 @@ function Main({ sx }) {
       <Typography variant="h6" sx={{ mt: 4, mb: 4 }}>
         {t('home.description')}
       </Typography>
-      <Stack flexDirection="row" flexWrap="wrap" justifyContent="center">
+      <Stack flexDirection="row" flexWrap="wrap" justifyContent="center" alignItems="center">
         <Button
           size="large"
           variant="contained"
+          sx={{ mx: 1, mb: 2 }}
           endIcon={<NavigateNextIcon />}
           onClick={() => navigate("/work")}
-          sx={{ mr: 2 }}
         >
           {t('home.services')}
         </Button>
         <Button
           size="large"
           variant="outlined"
+          sx={{ mx: 1, mb: 2 }}
           onClick={() => navigate("/collaboration")}
         >
           {t('home.collaboration')}
