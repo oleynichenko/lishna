@@ -24,5 +24,14 @@
   },
   "home": {
     "since": "Since 2016 We are engaged"
+  },
+  "books": {
+    "desta": "מחיר של אמונה",
+    "talmud": "ההגיון שבתלמוד",
+    "knights": "בירי הלילה",
+    "neharot": "כב נהרות",
+    "facts": "Facts",
+    "skinny": "Skinny",
+    "success": "Success"
   }
 }

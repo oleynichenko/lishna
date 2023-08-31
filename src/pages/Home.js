@@ -6,7 +6,7 @@ import Main from '../components/Main';
 function App() {
   return (
     <>
-      <Main sx={{ pt: { xs: 15, sm: 25 }, mb: { xs: 10, sm: 15, md: 20 } }} />
+      <Main sx={{ pt: { xs: 15, sm: 25 }, mb: { xs: 8, sm: 15, md: 20 } }} />
       <AboutUs sx={{ mb: { xs: 10, sm: 15, md: 20 } }} />
       <OurWorks sx={{ mb: { xs: 15, md: 25 } }} />
     </>

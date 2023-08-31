@@ -11,7 +11,10 @@ const SettingsContext = createContext(initialState);
 
 function SettingsProvider({ children }) {
   const [settings, setSettings] = useLocalStorage('settings', {
-    maxAppWidth: initialState.maxAppWidth
+    maxAppWidth: initialState.maxAppWidth,
+    phone: initialState.phone,
+    whatsup: initialState.whatsup,
+    email: initialState.email
   });
 
   // const onChangeDirection = (event) => {

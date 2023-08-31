@@ -35,12 +35,12 @@
     "seeAll": "Смотреть все работы"
   },
   "books": {
-    "desta": "Desta",
+    "desta": "Цена веры",
+    "talmud": "Логика Талмуда",
+    "knights": "Рыцари ночи",
+    "neharot": "22 реки",
     "facts": "Facts",
-    "knights": "Knights",
-    "neharot": "Neharot",
     "skinny": "Skinny",
-    "success": "Success",
-    "talmud": "Talmud"
+    "success": "Success"
   }
 }

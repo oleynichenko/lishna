@@ -2,7 +2,8 @@
   "common": {
     "siteName": "Lishna",
     "developedBy": "Developed by",
-    "changeLang": "Change language"
+    "changeLang": "Change language",
+    "readMore": "Read more"
   },
   "langs": {
     "en": "English",
@@ -21,5 +22,25 @@
     "facebook": "Write in Facebook",
     "phone": "Make a phone call",
     "whatsapp": "Write in WhatsApp"
+  },
+  "home": {
+    "since": "Since 2016 our main activity is",
+    "activity": "Text editing and book publishing",
+    "description": "Personal and professional accompaniment hand in hand from manuscript to bookshelf. We give the texts an extra layer based on the treasures of the Torah.",
+    "services": "Our services",
+    "collaboration": "Collaboration",
+    "weAre": "Who are we?",
+    "ourLastWorks": "Our latest work",
+    "aboutUs": "We specialize in professional, legal or general editing, during which we go deep into your intent as a writer and get involved in the process of your creation...",
+    "seeAll": "View all works"
+  },
+  "books": {
+    "desta": "The price of faith",
+    "talmud": "The logic in the Talmud",
+    "knights": "Knights of the Night",
+    "neharot": "22 rivers",
+    "facts": "Facts",
+    "skinny": "Skinny",
+    "success": "Success"
   }
 }
